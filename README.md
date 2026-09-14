@@ -51,5 +51,5 @@ bash <(curl -Ls https://xxai.gv.uy/alpine)
 1. 同步官方版本v2.4.11
 2. wget命令删除-N参数
 ---
-# 致谢:
+## 致谢:
 代码来源56IDC，低版本3X-UI for Alping ，适配小内存机器或容器。
