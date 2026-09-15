@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         submodules: true
     - name: Build x-ui
@@ -22,7 +22,7 @@ jobs:
       run: tar -zcvf x-ui-linux-alpine.tar.gz x-ui
 
     - name: Upload files to Artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: x-ui-linux-alpine
         path: x-ui-linux-alpine.tar.gz
