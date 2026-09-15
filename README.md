@@ -52,4 +52,4 @@ bash <(curl -Ls https://xxai.gv.uy/alpine)
 2. wget命令删除-N参数
 ---
 ## 致谢:
-代码来源56IDC，低版本3X-UI for Alping ，适配小内存机器或容器，克隆作为留存备用。
+代码来源：56IDC，低版本3X-UI for Alpine ，适配小内存机器或容器，克隆作为留存备用。
