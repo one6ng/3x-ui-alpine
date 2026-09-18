@@ -108,7 +108,7 @@ install_x-ui() {
             exit 1
         fi
 
-        url="https://github.com/56idc/3x-ui-alpine/releases/download/${tag_version}/x-ui-linux-alpine.tar.gz"
+        url="https://github.com/one6ng/3x-ui-alpine/releases/download/${tag_version}/x-ui-linux-alpine.tar.gz"
         echo -e "开始安装x-ui $1"
         wget --no-check-certificate -O /usr/local/x-ui-linux-alpine.tar.gz ${url}
         if [[ $? -ne 0 ]]; then
